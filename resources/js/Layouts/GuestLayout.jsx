@@ -150,9 +150,10 @@ export default function Guest({ children }) {
             </div>
 
             {/* Main content */}
-            <div className="w-full overflow-hidden">{children}</div>
+            <div className="w-full flex-1 overflow-hidden">{children}</div>
 
-            <div className="pt-10 pb-32 bg-black px-20 flex justify-between">
+            {/* Footer */}
+            <div className=" pt-10 pb-32 bg-black px-20 flex justify-between">
                 <div className="">
                     <div className="flex items-center gap-2">
                         <img

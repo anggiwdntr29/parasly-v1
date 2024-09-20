@@ -187,54 +187,65 @@ const Home = () => {
                 <div className="py-10">
                     <SkinArea />
                 </div>
-                <div className="py-10 mb-10 bg-black rounded-xl text-center overflow-hidden ">
-                    <div
-                        className="pb-8"
-                        data-aos="fade-left"
-                        data-aos-delay="50"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out"
-                        data-aos-mirror="true"
-                        data-aos-once="true"
-                        data-aos-anchor-placement="top-center"
-                    >
-                        <h1 className="text-4xl font-bold text-white pb-1">
-                            Here our valuable{" "}
-                            <span className="text-secondary">partners</span>
-                        </h1>
-                        <p className="text-sm font-medium text-text_gray">
-                            One stop solution for your face skin problem
-                        </p>
-                    </div>
-                    <PartnerSlider />
+            </div>
+
+            <div className="mx-20 px-20 py-10 mb-10 bg-black rounded-xl text-center overflow-hidden ">
+                <div
+                    className="pb-8"
+                    data-aos="fade-left"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-center"
+                >
+                    <h1 className="text-4xl font-bold text-white pb-1">
+                        Here our valuable{" "}
+                        <span className="text-secondary">partners</span>
+                    </h1>
+                    <p className="text-sm font-medium text-text_gray">
+                        One stop solution for your face skin problem
+                    </p>
                 </div>
-                <div className="py-10 bg-gray rounded-xl overflow-hidden flex px-20">
-                    <div
-                        className="w-2/5 flex flex-col justify-center"
-                        data-aos="fade-right"
-                        data-aos-delay="50"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out"
-                        data-aos-mirror="true"
-                        data-aos-once="true"
-                        data-aos-anchor-placement="top-center"
-                    >
-                        <h1 className="text-8xl leading-3 font-bold">"</h1>
-                        <h1 className="text-5xl font-bold leading-snug">
-                            See what they{" "}
-                            <span className="text-secondary">
-                                saying about us
-                            </span>
-                        </h1>
-                        <p className="pt-5 text-lg font-medium text-text_gray">
-                            We put our customers’ opinions first and do our best
-                            for their satisfaction. Go ahead to check some of
-                            them!
-                        </p>
-                    </div>
-                    <div className="w-3/5">
-                        <Review />
-                    </div>
+                <PartnerSlider />
+            </div>
+            <div className="mx-20 py-10 bg-gray rounded-xl overflow-hidden flex px-20">
+                <div
+                    className="w-2/5 flex flex-col justify-center"
+                    data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="true"
+                    data-aos-anchor-placement="top-center"
+                >
+                    <h1 className="text-8xl leading-3 font-bold">"</h1>
+                    <h1 className="text-5xl font-bold leading-snug">
+                        See what they{" "}
+                        <span className="text-secondary">saying about us</span>
+                    </h1>
+                    <p className="pt-5 text-lg font-medium text-text_gray">
+                        We put our customers’ opinions first and do our best for
+                        their satisfaction. Go ahead to check some of them!
+                    </p>
+                </div>
+                <div className="w-3/5">
+                    <Review />
+                </div>
+            </div>
+            <div className="pt-10 justify-center items-center rounded-xl overflow-hidden flex flex-col px-20">
+                <h1 className="text-4xl font-bold">
+                    <span className="text-secondary">To be released</span> on
+                    PlayStore soon...
+                </h1>
+                <div className="flex justify-center items-start h-[600px]  overflow-hidden">
+                    <img
+                        src="/image/mockup.png"
+                        alt=""
+                        className="w-2/3 h-auto"
+                    />
                 </div>
             </div>
         </GuestLayout>
